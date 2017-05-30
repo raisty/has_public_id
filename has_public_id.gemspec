@@ -7,9 +7,9 @@ require "has_public_id/version"
 Gem::Specification.new do |s|
   s.name        = "has_public_id"
   s.version     = HasPublicId::VERSION
-  s.authors     = ["Graham Melcher"]
+  s.authors     = ["Maxim","Graham Melcher"]
   s.email       = ["melcher@gmail.com"]
-  s.homepage    = "https://github.com/hinthealth/has_public_id"
+  s.homepage    = "https://github.com/raisty/has_public_id"
   s.summary     = "Random, unique identifiers for activerecord models"
   s.description = "Allows for the easy creation and use of random, unique record identifiers so external entities cannot make inferences about your data based on sequential ID's"
 

@@ -4,7 +4,7 @@
 
 Simplifies the generation and use of unique, random identifiers for ActiveRecord models.
 
-We generate a string of random (using SecureRandom) alphanumeric characters (a-z, A-Z, 0-9) along with an optional prefix that defaults to the first 3 characters of the model name. The random string has a default length of 12, providing 62 ^ 12 possible strings.
+We generate a string of random (using SecureRandom) alphanumeric characters (A-Z, 0-9) along with an optional prefix that defaults to the first 3 characters of the model name. The random string has a default length of 12.
 
 On assignment to the model, if duplicate ID is detected in
 the database, a new random identifier is generated.
@@ -12,7 +12,7 @@ the database, a new random identifier is generated.
 ## Installation
 Add to Gemfile / etc
 
-    gem 'public_id'
+    gem 'has_public_id', git: 'https://github.com/raisty/has_public_id', branch: 'master'
 
 ## Usage
 

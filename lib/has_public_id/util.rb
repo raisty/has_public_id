@@ -1,6 +1,6 @@
 module HasPublicId
   module Util
-    DEFAULT_CHAR_SET = (0..9).collect { |i| i.to_s } + ('A'..'Z').to_a + ('a'..'z').to_a
+    DEFAULT_CHAR_SET = (0..9).collect { |i| i.to_s } + ('A'..'Z').to_a
     def self.char_set
       @car_set ||= DEFAULT_CHAR_SET
     end
